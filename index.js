@@ -1,4 +1,4 @@
-const { connect } = require("mqtt")
+# Simple code to connect Redis (on Docker)
 const redis = require("redis")
 const client=redis.createClient({
     port:6379,
